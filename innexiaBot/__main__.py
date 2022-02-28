@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/246bdc767f35c6ef3eb32.jpg"
+INNEXIA_IMG = "https://te.legra.ph/file/af3dbe0c9ff915905b888.jpg"
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ ❤️‍🔥 ɪ ᴀᴍ [𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱](https://telegra.ph/file/246bdc767f35c6ef3eb32.jpg) ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
+ʜᴇʟʟᴏ ❤️‍🔥 ɪ ᴀᴍ [Ξ S Γ H Ξ Я](https://te.legra.ph/file/af3dbe0c9ff915905b888.jpg) ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
 ᴛᴏ ʜᴇʟᴘ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴀɴᴅ ᴀᴅᴍɪɴs ᴡɪᴛʜ ᴍʏ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs, ғᴏʀ ʀᴇᴘᴏʀᴛɪɴɢ ᴀɴʏ ɪssᴜᴇs
 ʀᴇɢᴀʀᴅɪɴɢ ᴍᴇ ᴋɪɴᴅʟʏ ʀᴇᴘᴏʀᴛ ɪɴ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ sᴏ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀs ᴄᴀɴ ғɪx ᴍᴇ ᴏᴜᴛ ғᴏʀ ʏᴏᴜʀ ɴᴇᴇᴅs.
 """ 
@@ -86,9 +86,9 @@ buttons = [
             text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ZeusUpdates"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/esther_logs"),
         InlineKeyboardButton(
-            text=" ɴᴇᴛᴡᴏʀᴋ ", url=f"https://t.me/The_444_network"
+            text=" ɴᴇᴛᴡᴏʀᴋ ", url=f"https://t.me/The_Dsouza_Crew"
         ),
     ],
     [
@@ -98,14 +98,14 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="http://t.me/zeus444_bot?startgroup=true"),
+        InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="http://t.me/Miss_esther_bot?startgroup=true"),
     ],
 ]
 
 
 HELP_STRINGS = """
 **SETTINGS**
-Click on the buttons below to get documentation about specific modules of [𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱](https://telegra.ph/file/246bdc767f35c6ef3eb32.jpg)..)"""
+Click on the buttons below to get documentation about specific modules of [Ξ S Γ H Ξ Я](https://te.legra.ph/file/af3dbe0c9ff915905b888..jpg)..)"""
 
 
 
@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/thezeusSupport")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/esther_support")]]
             ),
         )
         
