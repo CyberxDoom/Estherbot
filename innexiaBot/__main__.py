@@ -473,10 +473,10 @@ def innexia_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Benjamin", url="t.me/bRoThEr_Of_ViLlAiN"),
-                    InlineKeyboardButton(text="Rihaal", url="t.me/Rihu_mone"),
+                    InlineKeyboardButton(text="Stalin", url="t.me/Cyber_castle"),
                  ],
                  [
-                    InlineKeyboardButton(text="Stephen", url="t.me/Taargeriyan"),
+                    InlineKeyboardButton(text="The Don", url="t.me/DON_OF_TELEGRAM"),
                     InlineKeyboardButton(text="Badboy", url="https://t.me/cyber_doom"),
                  ],
                  [
