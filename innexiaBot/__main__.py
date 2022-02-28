@@ -110,7 +110,7 @@ Click on the buttons below to get documentation about specific modules of [Ξ S 
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @heyaaman's"""
+ @bRoThEr_Of_ViLlAiN's"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -357,8 +357,8 @@ def innexia_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexia_":
         query.message.edit_text(
-            text=""" 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱  - A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱.
+            text=""" Ξ S Γ H Ξ Я  - A bot to manage your groups with additional features!
+            \nHere's the basic help regarding use of .
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -368,10 +368,10 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/TheZeusSupport"
+                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/esther_support"
                         ),
                         InlineKeyboardButton(
-                            text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/ZeusUpdates"
+                 Ξ S Γ H Ξ Я           text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/esther_logs"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
@@ -389,7 +389,7 @@ def innexia_about_callback(update, context):
 
     elif query.data == "innexia_basichelp":
         query.message.edit_text(
-            text=f"*Here's basic Help regarding 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱* *How to use Me?*"
+            text=f"*Here's basic Help regarding Ξ S Γ H Ξ Я * *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
             f"\n• Than send `/admincache@zeus444_bot` in that chat to refresh admin list in My database.\n"
@@ -417,7 +417,7 @@ def innexia_about_callback(update, context):
     elif query.data == "innexia_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱ now ready to manage your group."
+            f"\nCongragulations, Ξ S Γ H Ξ Я now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -444,18 +444,18 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_support":
         query.message.edit_text(
-            text="* 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒's other chats and channels*"
+            text="* Ξ S Γ H Ξ Я 's other chats and channels*"
             "\nJoin support/Update/Logs/Status group",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/TheZeusSupport"),
-                    InlineKeyboardButton(text="Update", url="t.me/ZeusUpdates"),
+                    InlineKeyboardButton(text="Support", url="t.me/esther_support"),
+                    InlineKeyboardButton(text="Update", url="t.me/esther_logs"),
                  ],
                  [
-                    InlineKeyboardButton(text="Logs", url="t.me/Zeus_botLogs"),
-                    InlineKeyboardButton(text="status group", url="https://t.me/Legend_of_the_fall444"),
+                    InlineKeyboardButton(text="Logs", url="t.me/esther_logs"),
+                    InlineKeyboardButton(text="Team", url="https://t.me/The_Dsouza_Crew"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -466,13 +466,13 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱  DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱ Bot",
+            text=f"<b> CREDIT FOR Ξ S Γ H Ξ Я  DEV'S</b>\n"
+            f"\nHere Some Developers Helping in Making The Ξ S Γ H Ξ Я Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Noah", url="t.me/bitchlasagnya"),
+                    InlineKeyboardButton(text="Benjamin", url="t.me/bRoThEr_Of_ViLlAiN"),
                     InlineKeyboardButton(text="Rihaal", url="t.me/Rihu_mone"),
                  ],
                  [
@@ -493,7 +493,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. I'm *𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱*
+            text=""" Hi.. I'm *Ξ S Γ H Ξ Я*
                  \nHere is the [](https://github.com/heyaaman/innexiaBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
