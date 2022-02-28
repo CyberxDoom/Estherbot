@@ -86,7 +86,7 @@ buttons = [
             text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/esther_logs"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/DC_bot_updates"),
         InlineKeyboardButton(
             text=" ɴᴇᴛᴡᴏʀᴋ ", url=f"https://t.me/The_Dsouza_Crew"
         ),
@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/esther_support")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/DC_bots_support")]]
             ),
         )
         
@@ -368,10 +368,10 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/esther_support"
+                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/DC_bots_support"
                         ),
                         InlineKeyboardButton(
-                 Ξ S Γ H Ξ Я           text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/esther_logs"
+                 Ξ S Γ H Ξ Я           text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/DC_bot_updates"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
@@ -450,8 +450,8 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/esther_support"),
-                    InlineKeyboardButton(text="Update", url="t.me/esther_logs"),
+                    InlineKeyboardButton(text="Support", url="t.me/DC_bots_support"),
+                    InlineKeyboardButton(text="Update", url="t.me/DC_bot_updates"),
                  ],
                  [
                     InlineKeyboardButton(text="Logs", url="t.me/esther_logs"),
