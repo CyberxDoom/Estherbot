@@ -9,7 +9,7 @@
          "manager",
          "innexi"
       ],   
-   "repository": "https://github.com/aldrinsai6/Estherbot",
+   "repository": "https://github.com/aldrinsai6/Estherbot.git",
    "addons": [
       {
          "options": {
